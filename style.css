@@ -100,9 +100,58 @@ Yellow #FFC600
         display: flex;
     }
 
+    .header-img {
+        position: relative;
+    }
 
+    .header-content {
+        display: flex;
+    }
+
+    .card1 {
+        border: 0;
+        vertical-align: middle;
+        display: inline-block;
+        position: absolute;
+        left: -20%;
+        top: 0%;
+        right: auto;
+        bottom: auto;
+        max-width: 375px;
+    }
+
+    .hero-img {
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        border: 0;
+    }
+
+    .card2 {
+        border: 0;
+        vertical-align: middle;
+        display: inline-block;
+        position: absolute;
+        left: auto;
+        top: auto;
+        right: -25%;
+        bottom: -22%;
+        max-width: 375px;
+    }
 
     .logos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 340px;
+    }
+
+    .projects {
         display: flex;
         justify-content: space-between;
     }
