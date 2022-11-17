@@ -13,7 +13,6 @@ Yellow #FFC600
 @media (min-width: 1024px){
 
     body {
-        margin: 70px 170px 0 170px;
         background-color: #F2F4FC;
         font-family: Arial, sans-serif;
     }
@@ -69,6 +68,7 @@ Yellow #FFC600
     }
     
     nav {
+        margin: 70px 170px 0 170px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -100,6 +100,10 @@ Yellow #FFC600
         display: flex;
     }
 
+    header {
+        margin: 70px 170px 0 170px;
+    }
+
     .header-img {
         position: relative;
     }
@@ -109,37 +113,28 @@ Yellow #FFC600
     }
 
     .card1 {
-        border: 0;
-        vertical-align: middle;
+        width: 300px;
         display: inline-block;
         position: absolute;
-        left: -20%;
+        left: -30%;
         top: 0%;
-        right: auto;
-        bottom: auto;
-        max-width: 375px;
     }
 
     .hero-img {
-        max-width: 100%;
-        vertical-align: middle;
+        width: 100%;
         display: inline-block;
-        border: 0;
     }
 
     .card2 {
-        border: 0;
-        vertical-align: middle;
+        width: 300px;
         display: inline-block;
         position: absolute;
-        left: auto;
-        top: auto;
-        right: -25%;
-        bottom: -22%;
-        max-width: 375px;
+        right: -30%;
+        bottom: -20%;
     }
 
     .logos {
+        margin: 70px 170px 0 170px;
         display: flex;
         justify-content: space-between;
     }
@@ -151,9 +146,20 @@ Yellow #FFC600
         width: 340px;
     }
 
+    .project {
+        margin: 70px 170px 0 170px;
+    }
+
     .projects {
         display: flex;
         justify-content: space-between;
+    }
+
+    .testimonials {
+        width: 100%;
+        margin: 0;
+        background-color: #292E47;
+        background-image: url(/assets/testimonial-section/orbit.png);
     }
 }
 
