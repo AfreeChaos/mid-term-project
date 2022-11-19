@@ -15,6 +15,9 @@ Yellow #FFC600
     body {
         background-color: #F2F4FC;
         font-family: Arial, sans-serif;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     h1 {
@@ -68,7 +71,7 @@ Yellow #FFC600
     }
     
     nav {
-        margin: 70px 170px 0 170px;
+        margin-top: 70px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -96,12 +99,13 @@ Yellow #FFC600
         height: 52px;
         width: 150px;
     }
+
     .getInTouch {
         display: flex;
     }
 
     header {
-        margin: 70px 170px 0 170px;
+        margin-top: 100px;
     }
 
     .header-img {
@@ -134,7 +138,7 @@ Yellow #FFC600
     }
 
     .logos {
-        margin: 70px 170px 0 170px;
+        margin-top: 130px;
         display: flex;
         justify-content: space-between;
     }
@@ -147,7 +151,7 @@ Yellow #FFC600
     }
 
     .project {
-        margin: 70px 170px 0 170px;
+        margin-top: 200px;
     }
 
     .projects {
@@ -156,11 +160,16 @@ Yellow #FFC600
     }
 
     .testimonials {
-        width: 100%;
-        margin: 0;
-        background-color: #292E47;
+        position: relative;
+        height: 622px;
+        margin-top: 200px;
+        background-color: #292e47;
         background-image: url(/assets/testimonial-section/orbit.png);
+        background-position: center;
+        background-size:cover;
+        color: #292e47;
     }
+
 }
 
 
