@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.contact.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,5 +19,29 @@
         </ul>
         <button class="headline-medium" style="color: #FFFFFF;">Contact Us</button>
     </nav>
+    <div>
+        <h1>Contact Us</h1>
+        <div>
+            <form id="email.form" name="email.form" data-name="Email Form" method="get" class="contact-wrapper" aria-label="Email Form">
+                <div class="contact-text">
+                    <label for="name" class="field">Full Name *</label>
+                    <input type="text" name="full name" id="full-name" placeholder="Enter your full name" class="field-box input">
+                </div>
+                <div class="contact-text-half">
+                    <label for="email" class="field">Email *</label>
+                    <input type="text" name="full name" id="email-field" placeholder="Enter your Email" class="field-box input">
+                </div>
+                <div class="contact-text-half">
+                    <label for="phone" class="field">Phone *</label>
+                    <input type="text" name="full name" id="email-field" placeholder="Enter your phone" class="field-box input">
+                </div>
+                <div class="contact-text-full">
+                    <label for="Message" class="field">Message *</label>
+                    <input type="text" name="full name" id="email-field" placeholder="Write a message" class="field-box-large input">
+                </div>
+                <input type="submit" value="Submit" data-wait="Please wait..." id="button-grid" class="button">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
