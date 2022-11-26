@@ -13,18 +13,18 @@
             <img src="/assets/logos/circle.svg" alt="logo de Circle">
         </div>
         <ul class="menu headline-medium">
-            <a style="color:#072AC8;">Home</a>
+            <a href="/1home.html" style="color:#072AC8; text-decoration: none;">Home</a>
             <a>Projects</a>
             <a>Services</a>
         </ul>
-        <button class="headline-medium" style="color: #FFFFFF;">Contact Us</button>
+        <a href="/3contact.html" class="contact-button headline-medium" style="color: #FFFFFF;">Contact Us</a>
     </nav>
     <header class="header-content" style="max-width: 1100px; margin-left: auto; margin-right: auto;">
         <div>
             <h1>Empower Your Business With Stunning Design!</h1>
             <p class="body-regular">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
             <div class="getInTouch">
-                <button class="headline-medium" style="color: #FFFFFF;">Get in touch</button>
+                <button class="contact-button headline-medium" style="color: #FFFFFF;">Get in touch</button>
                 <p class="headline-medium" style="padding-left: 40px">See our work</p>
             </div>
         </div>
@@ -45,21 +45,21 @@
         <h3>Recent Projects</h3>
         <div class="projects">
             <div class="card">
-                <img src="/assets/projects-section/1.jpg" alt="">
-                <p class="body-medium" style="margin: 30px;"> Simplify</p>
-                <p class="headline-regular"> Lorem ipsum dolor sit amet.</p>
+                <img src="/assets/projects-section/1.jpg" alt="" id="card1-img">
+                <p class="body-medium" style="margin: 30px;" id="card1-title"> Simplify</p>
+                <p class="headline-regular" id="card1-tagline"> Lorem ipsum dolor sit amet.</p>
+                <a href="/2project.html" style="margin: 0px 30px 30px; text-decoration: none; color: #072AC8;">Learn more</a>
+            </div>
+            <div class="card">
+                <img src="/assets/projects-section/2.jpg" alt="" id="card2-img">
+                <p class="body-medium" style="margin: 30px;" id="card2-title"> Simplify</p>
+                <p class="headline-regular" id="card2-tagline"> Lorem ipsum dolor sit amet.</p>
                 <a href="" style="margin: 0px 30px 30px; text-decoration: none; color: #072AC8;">Learn more</a>
             </div>
             <div class="card">
-                <img src="/assets/projects-section/2.jpg" alt="">
-                <p class="body-medium" style="margin: 30px;"> Simplify</p>
-                <p class="headline-regular"> Lorem ipsum dolor sit amet.</p>
-                <a href="" style="margin: 0px 30px 30px; text-decoration: none; color: #072AC8;">Learn more</a>
-            </div>
-            <div class="card">
-                <img src="/assets/projects-section/5.jpg" alt="">
-                <p class="body-medium" style="margin: 30px;"> Simplify</p>
-                <p class="headline-regular"> Lorem ipsum dolor sit amet.</p>
+                <img src="/assets/projects-section/5.jpg" alt="" id="card3-img">
+                <p class="body-medium" style="margin: 30px;" id="card3-title"> Simplify</p>
+                <p class="headline-regular" id="card3-tagline"> Lorem ipsum dolor sit amet.</p>
                 <a href="" style="margin: 0px 30px 30px; text-decoration: none; color: #072AC8;">Learn more</a>
             </div>
         </div>
@@ -137,5 +137,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/home.js"></script>
 </body>
 </html>
