@@ -397,15 +397,11 @@ Yellow #FFC600
 
     .email-icon {
         position: absolute;
-        left: 8%;
-        top: 27%;
-        right: auto;
-        bottom: auto;
+        left: 5%;
+        top: 30%;
         width: 30px;
         height: 30px;
         background-image: url(./assets/newsletter/icon/mail.svg);
-        background-position: 50% 50%;
-        background-size: auto;
         background-repeat: no-repeat;
     }
 
@@ -419,7 +415,6 @@ Yellow #FFC600
     }
 
     .white-box.input {
-        padding: 8px 12px;
         font-size: 14px;
         border: solid 1px #cccccc;
     }
